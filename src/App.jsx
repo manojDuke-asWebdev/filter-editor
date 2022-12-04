@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-
+import {Drop_file} from './components'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h3 className="bg-green-700 text-white">App</h3>
+      <Drop_file />
     </>
   )
 }
