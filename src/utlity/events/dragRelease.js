@@ -1,7 +1,8 @@
+import { file, setfile } from '../../hooks/states'
 // get the file 
 function dragRelease (event) {
-    var file = event.target.file[0]
-    return file
+    setfile(event.target.file[0])
+    console.log(file);
 }
 
 export default dragRelease;
